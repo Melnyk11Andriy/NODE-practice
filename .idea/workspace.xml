@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c938cc60-59fb-49c6-a065-cb2b80e612d0" name="Default Changelist" comment="" />
+    <list default="true" id="c938cc60-59fb-49c6-a065-cb2b80e612d0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +21,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="15.11.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="15.12.4" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -31,6 +35,7 @@
       <option name="presentableId" value="Default" />
       <updated>1624630564631</updated>
       <workItem from="1624630566322" duration="237000" />
+      <workItem from="1624631495814" duration="551000" />
     </task>
     <servers />
   </component>
