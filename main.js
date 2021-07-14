@@ -28,7 +28,7 @@ function directUsers(users) {
         if (age > 20 && gender === 'male') {
             fs.mkdir(path.join(__dirname, 'menOlder20'), {recursive: true}, err => {
                 if (err) throw err;
-                console.log('menOlder20 dirs have been created');
+                console.log('menOlder20 dir have been created');
             });
             fs.writeFile(path.join(__dirname, 'menOlder20', name + '.txt'), JSON.stringify(user), err => {
                 if (err) throw err;
@@ -37,7 +37,7 @@ function directUsers(users) {
         } else if (age < 20 && gender === 'male') {
             fs.mkdir(path.join(__dirname, 'menYounger20'), {recursive: true}, err => {
                 if (err) throw err;
-                console.log('menYounger20 dirs have been successfully created');
+                console.log('menYounger20 dir have been successfully created');
             });
             fs.writeFile(path.join(__dirname, 'menYounger20', name + '.txt'), JSON.stringify(user), err => {
                 if (err) throw err;
@@ -46,7 +46,7 @@ function directUsers(users) {
         } else if (age > 20 && gender === 'female') {
             fs.mkdir(path.join(__dirname, 'womenOlder20'), {recursive: true}, err => {
                 if (err) throw err;
-                console.log('womenOlder20 dirs have been successfully created');
+                console.log('womenOlder20 dir have been successfully created');
             });
             fs.writeFile(path.join(__dirname, 'womenOlder20', name + '.txt'), JSON.stringify(user), err => {
                 if (err) throw err;
@@ -55,7 +55,7 @@ function directUsers(users) {
         } else if (age < 20 && gender === 'female') {
             fs.mkdir(path.join(__dirname, 'womenYounger20'), {recursive: true}, err => {
                 if (err) throw err;
-                console.log('womenYounger20 dirs have  been successfully created');
+                console.log('womenYounger20 dir have  been successfully created');
             });
             fs.writeFile(path.join(__dirname, 'womenYounger20', name + '.txt'), JSON.stringify(user), err => {
                 if (err) throw err;
